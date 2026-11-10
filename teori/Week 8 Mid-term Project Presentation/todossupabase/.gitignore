@@ -1,0 +1,106 @@
+# --------------------------------------------------
+# Secrets & Environment Variables (JANGAN DI-COMMIT)
+# --------------------------------------------------
+*.env
+*.env.*
+assets/.env
+assets/*.env
+!*.env.example
+!assets/.env.example
+
+# --------------------------------------------------
+# Miscellaneous / OS
+# --------------------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# --------------------------------------------------
+# IDEs & Editors
+# --------------------------------------------------
+# Android Studio / IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+todossupabase.iml
+
+# VS Code
+.vscode/
+
+# --------------------------------------------------
+# Flutter / Dart / Pub
+# --------------------------------------------------
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# --------------------------------------------------
+# Android
+# --------------------------------------------------
+**/android/.gradle
+**/android/captures/
+**/android/gradleBuild/
+**/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystore & Signing files
+*.keystore
+*.jks
+key.properties
+
+# --------------------------------------------------
+# iOS & macOS
+# --------------------------------------------------
+**/ios/**/Generated.xcconfig
+**/ios/**/flutter_export_environment.sh
+**/ios/Flutter/.last_build_id
+**/ios/.generated/
+**/macos/**/Generated.xcconfig
+**/macos/**/flutter_export_environment.sh
+**/macos/Flutter/ephemeral
+**/macos/.generated/
+
+# CocoaPods
+**/Pods/
+**/Podfile.lock
+.symlinks/
+
+# Xcode user state
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# --------------------------------------------------
+# Linux & Windows Desktop
+# --------------------------------------------------
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
